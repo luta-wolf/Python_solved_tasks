@@ -5,3 +5,17 @@
 
 Найдите самый большой палиндром, полученный умножением двух трехзначных чисел.
 '''
+
+# for i in range(100, 1000):
+#     for j in range(100, 1000):
+#         m = i * j
+#         if len(str(m)) % 2 == 0:
+#             print(m)
+#         else:
+#             continue
+
+for i in range(10, 100):
+    for j in range(10, 100):
+        m = i * j
+        if len(str(m)) % 2 == 0:
+            print(m)
