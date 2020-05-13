@@ -10,8 +10,17 @@ for i in range(100, 1000):
     for j in range(100, 1000):
         m = i * j
         if len(str(m)) % 2 == 0:
-            if (m // 100000) % 10 == m % 10 and (m // 10000) % 10 == ( m // 10) % 10 and (m // 1000) % 10 == ( m // 100) % 10:
+            if (m // 100000) % 10 == m % 10 and (m // 10000) % 10 == ( m // 10) % 10 and \
+                    (m // 1000) % 10 == ( m // 100) % 10:
                 l.append(m)
 l.sort()
 print(l[-1])
 
+# Другое решение
+l = []
+for i in range(100, 1000):
+    for j in range(100, 1000):
+        m = str(i * j)
+        if m == m[::-1]:
+            l.append(int(m))
+print(max(l))
