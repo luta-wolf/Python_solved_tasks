@@ -1,5 +1,4 @@
 '''
-
 You are given an array of integers. You should find the sum of the integers with even indexes (0th, 2nd, 4th...).
 Then multiply this summed number and the final element of the array together.
 Don't forget that the first element has an index of 0.
