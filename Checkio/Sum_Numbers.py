@@ -17,12 +17,12 @@ def sum_numbers(line):
     return summ
 
 # tests
-sum_numbers("hi")
-sum_numbers('who is 1st here')
-sum_numbers('my numbers is 2')
-sum_numbers('This picture is an oil on canvas '
+print(sum_numbers("hi"))
+print(sum_numbers('who is 1st here'))
+print(sum_numbers('my numbers is 2'))
+print(sum_numbers('This picture is an oil on canvas '
  'painting by Danish artist Anna '
- 'Petersen between 1845 and 1910 year')
-sum_numbers('5 plus 6 is')
-sum_numbers('')
+ 'Petersen between 1845 and 1910 year'))
+print(sum_numbers('5 plus 6 is'))
+print(sum_numbers(''))
 
