@@ -23,7 +23,7 @@ def sum_numbers(line):
     return summ
 
 # tests
-print(sum_numbers("hi"),)
+print(sum_numbers("hi"))
 print(sum_numbers('who is 1st here'))
 print(sum_numbers('my numbers is 2'))
 print(sum_numbers('This picture is an oil on canvas '

@@ -13,3 +13,10 @@ while b < 4000000:
         total += a
 print(total)
 
+#Альтернативное решение
+l, a, b = [], 0, 1
+while b < 4000000:
+    a, b = b, a + b
+    if a % 2 == 0:
+        l.append(a)
+print(sum(l))

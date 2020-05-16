@@ -20,12 +20,15 @@ Output: A string.
 Выходные параметры: Строка.
 '''
 def first_word(line):
-    line = line.split()
+    line = line.replace('.', ' ').replace(',', ' ').split()
     for i in line:
-        if i.isalpha() == True:
+        if i.isalpha() == True or i.find('\''):
             return i
             break
-
+#best
+def first_word2(text: str) -> str:
+    text = text.replace('.', ' ').replace(',', ' ').strip()
+    return text.split()[0]
 
 #tests
 print(first_word("Hello world")) # == "Hello"
@@ -34,3 +37,4 @@ print(first_word("don't touch it")) # == "don't"
 print(first_word("greetings, friends")) # == "greetings"
 print(first_word("hi")) # == "hi"
 print(first_word("Hello.World")) # == "Hello"
+print(first_word("... and so on ...")) # == "and"
