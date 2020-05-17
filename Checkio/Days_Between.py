@@ -20,16 +20,34 @@ Output: The difference between the dates in days as an integer.
 Выходные данные: Разница между датами в днях, как целое число.
 '''
 import datetime
-a, b = (2014, 8, 27), (2014, 1, 1)
-diff = (a[0] - b[0]) * 365 + (a[1] - b[1]) * 30 + (a[2] - b[2])
-print(diff)
+# №1
+a = datetime.datetime(2014, 1, 1)
+b = datetime.datetime(2014, 8, 27)
+delta = (a - b).days
+if delta < 0:
+    delta *= -1
+print(delta)
 
-# def days_diff(a, b):
-#     pass
-
-print(dir(datetime))
+# №2
+def days_diff(a, b):
+    a1 = datetime.datetime(a[0], a[1], a[2])
+    b1 = datetime.datetime(b[0], b[1], b[2])
+    delta = (a1 - b1).days
+    if delta < 0:
+        delta *= -1
+    return delta
+#best
+def days_diff2(a, b):
+    a1 = datetime.datetime(*a)
+    b1 = datetime.datetime(*b)
+    delta = (a1 - b1).days
+    return abs(delta)
 
 #tests
-# days_diff((1982, 4, 19), (1982, 4, 22)) == 3
-# days_diff((2014, 1, 1), (2014, 8, 27)) == 238
-# days_diff((2014, 8, 27), (2014, 1, 1)) == 238
+print(days_diff((1982, 4, 19), (1982, 4, 22))) # == 3
+print(days_diff((2014, 1, 1), (2014, 8, 27))) # == 238
+print(days_diff((2014, 8, 27), (2014, 1, 1))) # == 238
+
+print(days_diff2((1982, 4, 19), (1982, 4, 22))) # == 3
+print(days_diff2((2014, 1, 1), (2014, 8, 27))) # == 238
+print(days_diff2((2014, 8, 27), (2014, 1, 1))) # == 238
