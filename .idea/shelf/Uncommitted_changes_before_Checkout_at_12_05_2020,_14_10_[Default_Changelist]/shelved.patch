@@ -1,0 +1,28 @@
+Index: 4_task.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>'''\nЗадача 4 - \tLargest palindrome product\nЧисло-палиндром с обеих сторон (справа налево и слева направо) читается одинаково.\nСамое большое число-палиндром, полученное умножением двух двузначных чисел – 9009 = 91 × 99.\n\nНайдите самый большой палиндром, полученный умножением двух трехзначных чисел.\n'''\n\n# for i in range(100, 1000):\n#     for j in range(100, 1000):\n#         m = i * j\n#         if len(str(m)) % 2 == 0:\n#             print(m)\n#         else:\n#             continue\n\nfor i in range(10, 100):\n    for j in range(10, 100):\n        m = i * j\n        if len(str(m)) % 2 == 0:\n            print(m)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 4_task.py	(revision ada616dc0610bef402570f9d66ab353ed6cf4994)
++++ 4_task.py	(date 1589281528329)
+@@ -5,17 +5,3 @@
+ 
+ Найдите самый большой палиндром, полученный умножением двух трехзначных чисел.
+ '''
+-
+-# for i in range(100, 1000):
+-#     for j in range(100, 1000):
+-#         m = i * j
+-#         if len(str(m)) % 2 == 0:
+-#             print(m)
+-#         else:
+-#             continue
+-
+-for i in range(10, 100):
+-    for j in range(10, 100):
+-        m = i * j
+-        if len(str(m)) % 2 == 0:
+-            print(m)
+\ No newline at end of file

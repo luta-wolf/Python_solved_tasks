@@ -1,0 +1,12 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1589281491341)
++++ README.md	(date 1589281491341)
+@@ -0,0 +1,4 @@
++# ProjectEuler
++В этом рипозитории буду хранить свои решения задач с проэкта Эйлера
++Русская версия: https://euler.jakumo.org/
++Импортная: https://projecteuler.net/about

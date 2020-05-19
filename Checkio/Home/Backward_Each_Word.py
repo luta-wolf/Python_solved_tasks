@@ -9,13 +9,18 @@ Output: A string.
 Вход: строка.
 Выход: строка.
 '''
-import re
-def backward_string_by_word(text: str) -> str:
-    result, list = re.split(r'[ ]', text), []
+# Без модуля re
+def backward_string_by_word2(text: str) -> str:
+    result, list = text.split(' '), []
     for i in result:
         list.append(i[::-1])
     return ' '.join(list)
 
+#best
+def backward_string_by_word(text: str) -> str:
+    for i in text.split():
+        text = text.replace(i,i[::-1])
+    return text
 
 #tests
 print(backward_string_by_word('')) #== ''
@@ -24,3 +29,8 @@ print(backward_string_by_word('hello world')) #== 'olleh dlrow'
 print(backward_string_by_word('hello   world')) #== 'olleh   dlrow'
 print(backward_string_by_word('welcome to a game')) #== 'emoclew ot a emag'
 
+print('-' * 20)
+# Метод reversed()
+string = 'welcome to a game'
+string = ''.join(reversed(string))
+print(string)

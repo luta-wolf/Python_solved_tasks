@@ -29,7 +29,7 @@ if delta < 0:
 print(delta)
 
 # №2
-def days_diff(a, b):
+def days_diff2(a, b):
     a1 = datetime.datetime(a[0], a[1], a[2])
     b1 = datetime.datetime(b[0], b[1], b[2])
     delta = (a1 - b1).days
@@ -37,7 +37,7 @@ def days_diff(a, b):
         delta *= -1
     return delta
 #best
-def days_diff2(a, b):
+def days_diff(a, b):
     a1 = datetime.datetime(*a)
     b1 = datetime.datetime(*b)
     delta = (a1 - b1).days

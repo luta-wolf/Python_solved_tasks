@@ -1,0 +1,16 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ProjectEuler\nРешения задач с проэкта Эйлера.\n\nРусская версия: https://euler.jakumo.org/\nИмпортная: https://projecteuler.net/about\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 9ca5677116502873a247a8d5082c78cbc4456368)
++++ README.md	(date 1589281505729)
+@@ -1,5 +1,4 @@
+ # ProjectEuler
+-Решения задач с проэкта Эйлера.
+-
++В этом рипозитории буду хранить свои решения задач с проэкта Эйлера
+ Русская версия: https://euler.jakumo.org/
+ Импортная: https://projecteuler.net/about
