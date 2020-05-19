@@ -4,9 +4,15 @@
 
 Какое самое маленькое число делится нацело на все числа от 1 до 20?
 '''
-n = 1
-for i in range(1, 11):
-    n *= i
-    print(i, end=' ')
-print()
-print(n)
+#Factorial
+n =10
+factorial = 1
+for i in range(1,n+1):
+    factorial *= i
+print(factorial)
+#Делители
+list = []
+for i in range(1,(factorial)):
+        if factorial % i == 0:
+            list.append(i)
+print(list)

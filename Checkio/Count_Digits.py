@@ -15,6 +15,10 @@ def count_digits(text):
     pattern = r'[1234567890]'
     return len(re.findall(pattern,text))
 
+#best
+def count_digits2(text):
+    return len(re.findall(r'\d',text))
+
 #test
 print(count_digits('hi')) #== 0
 print(count_digits('who is 1st here')) #== 1
