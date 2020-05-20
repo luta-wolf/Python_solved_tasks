@@ -4,15 +4,23 @@
 
 Какое самое маленькое число делится нацело на все числа от 1 до 20?
 '''
-#Factorial
-n =10
-factorial = 1
-for i in range(1,n+1):
-    factorial *= i
-print(factorial)
+
 #Делители
-list = []
-for i in range(1,(factorial)):
-        if factorial % i == 0:
+def smallest_divisor(n):
+    list = []
+    for i in range(2, n):
+        if n % i == 0:
             list.append(i)
-print(list)
+    return list
+
+#tests
+print(smallest_divisor(10))
+print(smallest_divisor(9))
+print(smallest_divisor(8))
+print(smallest_divisor(7))
+print(smallest_divisor(6))
+print(smallest_divisor(5))
+print(smallest_divisor(4))
+print(smallest_divisor(3))
+print(smallest_divisor(2))
+print(smallest_divisor(1))

@@ -20,7 +20,6 @@ def backward_string2(val: str) -> str:
 def backward_string3(val: str) -> str:
     return ''.join(reversed(val))
 
-
 # auto-testing
 print(backward_string('val')) #== 'lav'
 print(backward_string('')) #== ''

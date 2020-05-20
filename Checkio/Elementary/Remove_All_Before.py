@@ -16,19 +16,25 @@ Output: Iterable (tuple, list, iterator ...).
 Выход: Iterable (кортеж, список, итератор ...).
 '''
 
-from typing import Iterable
-
-
 def remove_all_before(items: list, border: int) -> Iterable:
-    pass
-
-
-print(remove_all_before([1, 2, 3, 4, 5], 3))
+    if items == []:
+        return items
+    else:
+        if border in items:
+            for i in range(len(items)):
+                if items[0] != border:
+                    items.pop(0)
+    return items
 
 # auto-testing
-#     assert list(remove_all_before([1, 2, 3, 4, 5], 3)) == [3, 4, 5]
-#     assert list(remove_all_before([1, 1, 2, 2, 3, 3], 2)) == [2, 2, 3, 3]
-#     assert list(remove_all_before([1, 1, 2, 4, 2, 3, 4], 2)) == [2, 4, 2, 3, 4]
-#     assert list(remove_all_before([1, 1, 5, 6, 7], 2)) == [1, 1, 5, 6, 7]
-#     assert list(remove_all_before([], 0)) == []
-#     assert list(remove_all_before([7, 7, 7, 7, 7, 7, 7, 7, 7], 7)) == [7, 7, 7, 7, 7, 7, 7, 7, 7]
+print((remove_all_before([1, 2, 3, 4, 5], 3))) #== [3, 4, 5]
+print((remove_all_before([1, 1, 2, 2, 3, 3], 2))) #== [2, 2, 3, 3]
+print((remove_all_before([1, 1, 2, 4, 2, 3, 4], 2))) #== [2, 4, 2, 3, 4]
+print((remove_all_before([1, 1, 5, 6, 7], 2))) #== [1, 1, 5, 6, 7]
+print((remove_all_before([], 0))) #== []
+print((remove_all_before([7, 7, 7, 7, 7, 7, 7, 7, 7], 7))) #== [7, 7, 7, 7, 7, 7, 7, 7, 7]
+
+from typing import Iterable
+def f(ints: Iterable[int]):
+    return [str(x) for x in ints]
+print(f(range(1, 3)))
