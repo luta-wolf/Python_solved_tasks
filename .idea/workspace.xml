@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad31c154-251d-47d1-ad5e-c0c41ae53c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/All_Upper_I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Beginning_Zeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Max_Digit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Nearest_Value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Replace_First.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Split_Pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020,_14_05_[Update_README_md]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020,_14_05_[Update_README_md]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020,_14_10_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020__14_05__Update_README_md_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020__14_05__Update_README_md_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2020__14_10__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkio/Elementary/Backward_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checkio/Elementary/Backward_String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checkio/Elementary/Remove_All_Before.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checkio/Elementary/Remove_All_Before.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler/5_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/5_task.py" afterDir="false" />
     </list>
     <list id="f0f23b6a-a3f0-42a3-b707-d21d612d9503" name="Update README.md" comment="Update README.md&#10;&#10;(cherry picked from commit 9ca5677116502873a247a8d5082c78cbc4456368)">
@@ -238,7 +224,11 @@
       <workItem from="1589870274985" duration="2094000" />
       <workItem from="1589886298163" duration="10805000" />
       <workItem from="1589952475372" duration="811000" />
-      <workItem from="1589959288318" duration="20449000" />
+      <workItem from="1589959288318" duration="20514000" />
+      <workItem from="1590007701661" duration="243000" />
+      <workItem from="1590038908382" duration="60000" />
+      <workItem from="1590524333372" duration="10000" />
+      <workItem from="1590659656970" duration="2337000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <created>1589277005651</created>
@@ -310,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589747840590</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="solved 5th just tasks">
+      <created>1590005322981</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590005322981</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,57 +348,58 @@
     <MESSAGE value="best solved problem 'First Word'" />
     <MESSAGE value="solved 'Days Between' (6th)" />
     <MESSAGE value="solved 'Count Digits' (7th)" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 'Count Digits' (7th)" />
+    <MESSAGE value="solved 5th just tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 5th just tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589269378866">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1589269378866" />
-    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589747840537">
+    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1590005322825">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589747840537" />
+    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1590005322825" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1589281636062">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1589281636062" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589862832386">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590524341134">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1589862832386" />
-    <state width="1487" height="267" key="GridCell.Tab.0.bottom" timestamp="1590003628410">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1590524341134" />
+    <state width="1487" height="267" key="GridCell.Tab.0.bottom" timestamp="1590007944229">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590003628410" />
-    <state width="1487" height="267" key="GridCell.Tab.0.center" timestamp="1590003628409">
+    <state width="1487" height="267" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
+    <state width="1487" height="267" key="GridCell.Tab.0.center" timestamp="1590007944229">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1590003628409" />
-    <state width="1487" height="267" key="GridCell.Tab.0.left" timestamp="1590003628409">
+    <state width="1487" height="267" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
+    <state width="1487" height="267" key="GridCell.Tab.0.left" timestamp="1590007944228">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1590003628409" />
-    <state width="1487" height="267" key="GridCell.Tab.0.right" timestamp="1590003628410">
+    <state width="1487" height="267" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1590007944228" />
+    <state width="1487" height="267" key="GridCell.Tab.0.right" timestamp="1590007944229">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1590003628410" />
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1589960619364">
+    <state width="1487" height="267" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1590005336828">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589960619364" />
-    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1589960619364">
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590005336828" />
+    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1590005336828">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1589960619364" />
-    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1589960619363">
+    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1590005336828" />
+    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1590005336827">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1589960619363" />
-    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1589960619364">
+    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1590005336827" />
+    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1590005336828">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1589960619364" />
+    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1590005336828" />
     <state x="364" y="108" width="1226" height="728" key="MergeDialog" timestamp="1589281491373">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -418,10 +416,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="562" y="196" width="639" height="524" key="StructurePopup/67.27.1533.873@67.27.1533.873" timestamp="1589791601743" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589747851104">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590005333183">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1589747851104" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1590005333183" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589281636063">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -454,7 +452,7 @@
     <SUITE FILE_PATH="coverage/ProjectEuler$Three_Words.coverage" NAME="Three_Words Coverage Results" MODIFIED="1589804626623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Right_to_Left.coverage" NAME="Right_to_Left Coverage Results" MODIFIED="1589804461392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Count_Digits.coverage" NAME="Count_Digits Coverage Results" MODIFIED="1589783820854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
-    <SUITE FILE_PATH="coverage/ProjectEuler$5_task.coverage" NAME="5_task Coverage Results" MODIFIED="1590003628396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectEuler" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$5_task.coverage" NAME="5_task Coverage Results" MODIFIED="1590659661592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectEuler" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Even_the_Last.coverage" NAME="Even_the_Last Coverage Results" MODIFIED="1589565988453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/ProjectEuler$First_WordFirst_Word__simplified_.coverage" NAME="First_WordFirst Word (simplified) Coverage Results" MODIFIED="1589891157902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Sum_Numbers.coverage" NAME="Sum_Numbers Coverage Results" MODIFIED="1589804576491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
