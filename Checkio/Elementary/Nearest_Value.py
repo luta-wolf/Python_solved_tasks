@@ -35,16 +35,30 @@ Output: Int.
 '''
 
 def nearest_value(values: set, one: int) -> int:
-    pass
+
+    if one in values: return one
+    else:
+        values = list(values)
+        values.append(one)
+        values = sorted(values)
+        if values[0] == one: return values[1]
+        elif values[-1] == one: return values[-2]
+        else:
+            m = values.index(one)
+            if values[m] - values[m-1] < values[m+1] - values[m] or \
+                    values[m] - values[m-1] == values[m+1] - values[m]:
+                return values[m-1]
+            else:
+                return values[m+1]
 
 
 
 # auto-testing
-#     assert nearest_value({4, 7, 10, 11, 12, 17}, 9) == 10
-#     assert nearest_value({4, 7, 10, 11, 12, 17}, 8) == 7
-#     assert nearest_value({4, 8, 10, 11, 12, 17}, 9) == 8
-#     assert nearest_value({4, 9, 10, 11, 12, 17}, 9) == 9
-#     assert nearest_value({4, 7, 10, 11, 12, 17}, 0) == 4
-#     assert nearest_value({4, 7, 10, 11, 12, 17}, 100) == 17
-#     assert nearest_value({5, 10, 8, 12, 89, 100}, 7) == 8
-#     assert nearest_value({-1, 2, 3}, 0) == -1
+print(nearest_value({4, 7, 10, 11, 12, 17}, 9)) #== 10
+print(nearest_value({4, 7, 10, 11, 12, 17}, 8)) #== 7
+print(nearest_value({4, 8, 10, 11, 12, 17}, 9)) #== 8
+print(nearest_value({4, 9, 10, 11, 12, 17}, 9)) #== 9
+print(nearest_value({4, 7, 10, 11, 12, 17}, 0)) #== 4
+print(nearest_value({4, 7, 10, 11, 12, 17}, 100)) #== 17
+print(nearest_value({5, 10, 8, 12, 89, 100}, 7)) #== 8
+print(nearest_value({-1, 2, 3}, 0)) #== -1

@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad31c154-251d-47d1-ad5e-c0c41ae53c01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Between_Markers_(simplified).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Correct_Sentence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Checkio/Elementary/Is_Even.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler/5_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler/5_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkio/Elementary/Nearest_Value.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checkio/Elementary/Nearest_Value.py" afterDir="false" />
     </list>
     <list id="f0f23b6a-a3f0-42a3-b707-d21d612d9503" name="Update README.md" comment="Update README.md&#10;&#10;(cherry picked from commit 9ca5677116502873a247a8d5082c78cbc4456368)">
       <changelist_data name="luta-wolf" email="58044383+luta-wolf@users.noreply.github.com" date="1588807469000" />
@@ -65,29 +68,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.5_task">
-    <configuration name="5_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler/5_task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Is_Even">
     <configuration name="Beginning_Zeros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Max_Digit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Between_Markers_(simplified)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +104,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Max_Digit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Between_Markers_(simplified).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Replace_First" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Correct_Sentence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +126,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Replace_First.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Correct_Sentence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Split_Pairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Is_Even" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +148,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Split_Pairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Is_Even.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nearest_Value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectEuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio/Elementary" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/Elementary/Nearest_Value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5_task" />
+        <item itemvalue="Python.Is_Even" />
+        <item itemvalue="Python.Correct_Sentence" />
+        <item itemvalue="Python.Between_Markers_(simplified)" />
+        <item itemvalue="Python.Nearest_Value" />
         <item itemvalue="Python.Beginning_Zeros" />
-        <item itemvalue="Python.Split_Pairs" />
-        <item itemvalue="Python.Max_Digit" />
-        <item itemvalue="Python.Replace_First" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +231,14 @@
       <workItem from="1590007701661" duration="243000" />
       <workItem from="1590038908382" duration="60000" />
       <workItem from="1590524333372" duration="10000" />
-      <workItem from="1590659656970" duration="2337000" />
+      <workItem from="1590659656970" duration="2393000" />
+      <workItem from="1590696816140" duration="9000" />
+      <workItem from="1590696994343" duration="41000" />
+      <workItem from="1590697338907" duration="31000" />
+      <workItem from="1590697539042" duration="32000" />
+      <workItem from="1590697722605" duration="17000" />
+      <workItem from="1592343995942" duration="6107000" />
+      <workItem from="1592377594937" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <created>1589277005651</created>
@@ -307,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590005322981</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5th tasks - algoritm">
+      <created>1590677707228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590677707228</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,41 +366,42 @@
     <MESSAGE value="solved 'Days Between' (6th)" />
     <MESSAGE value="solved 'Count Digits' (7th)" />
     <MESSAGE value="solved 5th just tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 5th just tasks" />
+    <MESSAGE value="5th tasks - algoritm" />
+    <option name="LAST_COMMIT_MESSAGE" value="5th tasks - algoritm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589269378866">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="291" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873@67.27.1533.873" timestamp="1589269378866" />
-    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1590005322825">
+    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1590677707084">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1590005322825" />
+    <state x="631" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1590677707084" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1589281636062">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog/67.27.1533.873@67.27.1533.873" timestamp="1589281636062" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590524341134">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590697737309">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1590524341134" />
-    <state width="1487" height="267" key="GridCell.Tab.0.bottom" timestamp="1590007944229">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1590697737309" />
+    <state width="1487" height="267" key="GridCell.Tab.0.bottom" timestamp="1592378454880">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
-    <state width="1487" height="267" key="GridCell.Tab.0.center" timestamp="1590007944229">
+    <state width="1487" height="267" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1592378454880" />
+    <state width="1487" height="267" key="GridCell.Tab.0.center" timestamp="1592378454879">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
-    <state width="1487" height="267" key="GridCell.Tab.0.left" timestamp="1590007944228">
+    <state width="1487" height="267" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1592378454879" />
+    <state width="1487" height="267" key="GridCell.Tab.0.left" timestamp="1592378454878">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1590007944228" />
-    <state width="1487" height="267" key="GridCell.Tab.0.right" timestamp="1590007944229">
+    <state width="1487" height="267" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1592378454878" />
+    <state width="1487" height="267" key="GridCell.Tab.0.right" timestamp="1592378454880">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="267" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1590007944229" />
+    <state width="1487" height="267" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1592378454880" />
     <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1590005336828">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -408,18 +426,18 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="714" y="330" width="638" height="283" key="MultipleFileMergeDialog/67.27.1533.873@67.27.1533.873" timestamp="1589281491376" />
-    <state x="322" y="97" key="SettingsEditor" timestamp="1589273272943">
+    <state x="322" y="97" key="SettingsEditor" timestamp="1590697731201">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1589273272943" />
+    <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1590697731201" />
     <state x="562" y="196" width="639" height="524" key="StructurePopup" timestamp="1589791601743">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="562" y="196" width="639" height="524" key="StructurePopup/67.27.1533.873@67.27.1533.873" timestamp="1589791601743" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590005333183">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590677713276">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1590005333183" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1590677713276" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589281636063">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -448,6 +466,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectEuler$2_task.coverage" NAME="2_task Coverage Results" MODIFIED="1589635402586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Replace_First.coverage" NAME="Replace_First Coverage Results" MODIFIED="1589991545306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Nearest_Value.coverage" NAME="Nearest_Value Coverage Results" MODIFIED="1592346509459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Easy_Unpack.coverage" NAME="Easy_Unpack Coverage Results" MODIFIED="1589890428025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Three_Words.coverage" NAME="Three_Words Coverage Results" MODIFIED="1589804626623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Right_to_Left.coverage" NAME="Right_to_Left Coverage Results" MODIFIED="1589804461392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
@@ -456,11 +475,13 @@
     <SUITE FILE_PATH="coverage/ProjectEuler$Even_the_Last.coverage" NAME="Even_the_Last Coverage Results" MODIFIED="1589565988453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/ProjectEuler$First_WordFirst_Word__simplified_.coverage" NAME="First_WordFirst Word (simplified) Coverage Results" MODIFIED="1589891157902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Sum_Numbers.coverage" NAME="Sum_Numbers Coverage Results" MODIFIED="1589804576491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Between_Markers__simplified_.coverage" NAME="Between_Markers_(simplified) Coverage Results" MODIFIED="1592347777695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Max_Digit.coverage" NAME="Max_Digit Coverage Results" MODIFIED="1589993318079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$3_task.coverage" NAME="3_task Coverage Results" MODIFIED="1589831042538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Backward_String.coverage" NAME="Backward_String Coverage Results" MODIFIED="1589959452471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Split_Pairs.coverage" NAME="Split_Pairs Coverage Results" MODIFIED="1589995578598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Remove_All_Before.coverage" NAME="Remove_All_Before Coverage Results" MODIFIED="1589989961799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Correct_Sentence.coverage" NAME="Correct_Sentence Coverage Results" MODIFIED="1592349525530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$1_task.coverage" NAME="1_task Coverage Results" MODIFIED="1589830908371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Multiply__Intro_.coverage" NAME="Multiply (Intro) Coverage Results" MODIFIED="1589889531952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$First_Word.coverage" NAME="First_Word Coverage Results" MODIFIED="1589804410478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
@@ -468,8 +489,9 @@
     <SUITE FILE_PATH="coverage/ProjectEuler$All_Upper_I.coverage" NAME="All_Upper_I Coverage Results" MODIFIED="1589990834943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Days_Between.coverage" NAME="Days_Between Coverage Results" MODIFIED="1589893104347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Home" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Acceptable_Password_I.coverage" NAME="Acceptable_Password I Coverage Results" MODIFIED="1589913439878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Is_Even.coverage" NAME="Is_Even Coverage Results" MODIFIED="1592378454863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$End_Zeros.coverage" NAME="End_Zeros Coverage Results" MODIFIED="1589915328377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
-    <SUITE FILE_PATH="coverage/ProjectEuler$Beginning_Zeros.coverage" NAME="Beginning_Zeros Coverage Results" MODIFIED="1589997583272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Beginning_Zeros.coverage" NAME="Beginning_Zeros Coverage Results" MODIFIED="1592344486051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Backward_Each_Word.coverage" NAME="Backward_Each_Word Coverage Results" MODIFIED="1589916142422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Home" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Number_Length.coverage" NAME="Number_Length Coverage Results" MODIFIED="1589913740985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio/Elementary" />
   </component>
