@@ -19,15 +19,38 @@ Output: A string.
 '''
 
 
-def correct_sentence(text: str) -> str:
+def correct_sentence9(text: str) -> str:
     text = text.split()
     text[0] = text[0].capitalize()
     text = ' '.join(text)
     if text[-1] != '.': text = text + '.'
     return text
+# best
+def correct_sentence(text: str) -> str:
+    res = text[0].upper() + text[1:]
+    return res.strip('.') + '.'
+# interesting
+def correct_sentence3(text):
+    head, *body, tail = text
+    return "".join([head.upper()] + body + [tail if tail == "." else tail + "."])
 
-
-
+# interesting2
+def correct_sentence4(text):
+    head, *body, tail = text
+    return "".join([head.upper()] + body + [tail.strip('.') + '.'])
+'''
+>>> head, *body, tail = 'Python!'
+>>> head, *body, tail
+('P', 'y', 't', 'h', 'o', 'n', '!')
+>>> head, body, tail
+('P', ['y', 't', 'h', 'o', 'n'], '!')
+>>> [head] + body + [tail]
+['P', 'y', 't', 'h', 'o', 'n', '!'] 
+>>> [head, *body, tail]
+['P', 'y', 't', 'h', 'o', 'n', '!']
+>>> ''.join([head, *body, tail])
+'Python!'
+'''
 
 # auto-testing
 print(correct_sentence("greetings, friends")) #== "Greetings, friends."

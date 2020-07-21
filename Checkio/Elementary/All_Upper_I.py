@@ -13,6 +13,7 @@ Output: a boolean.
 '''
 import re
 
+
 def is_all_upper2(text: str) -> bool:
     if text == None:
         return True
@@ -20,15 +21,16 @@ def is_all_upper2(text: str) -> bool:
         return True
     return False
 
-#best
+
+# best
 def is_all_upper(text: str) -> bool:
     return text == text.upper()
 
-#auto-testing
-print(is_all_upper('ALL UPPER')) #== True
-print(is_all_upper('all lower')) #== False
-print(is_all_upper('mixed UPPER and lower')) #== False
-print(is_all_upper('')) #== True
-print(is_all_upper("     ")) #== True
-print(is_all_upper("123"))  #== True
 
+# auto-testing
+print(is_all_upper('ALL UPPER'))  # == True
+print(is_all_upper('all lower'))  # == False
+print(is_all_upper('mixed UPPER and lower'))  # == False
+print(is_all_upper(''))  # == True
+print(is_all_upper("     "))  # == True
+print(is_all_upper("123"))  # == True

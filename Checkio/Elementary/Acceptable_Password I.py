@@ -18,17 +18,20 @@ Output: A bool.
 Выход: A bool
 '''
 
+
 def is_acceptable_password2(password: str) -> bool:
     if len(password) > 6:
         return True
     else:
         return False
 
-#best
+
+# best
 def is_acceptable_password(password: str) -> bool:
     return len(password) > 6
 
+
 # tests
-print(is_acceptable_password('short')) #== False
-print(is_acceptable_password('muchlonger')) #== True
-print(is_acceptable_password('ashort')) #== False
+print(is_acceptable_password('short'))  # == False
+print(is_acceptable_password('muchlonger'))  # == True
+print(is_acceptable_password('ashort'))  # == False
