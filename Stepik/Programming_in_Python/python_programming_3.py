@@ -475,15 +475,19 @@ import os.path
 #     r = requests.get(inf.readline().strip())
 #     print(len(r.text.splitlines()))
 # ---------------------------------------------------------
-import  requests
-inf = open('dataset_3378_3.txt')
-url = inf.readline().strip()
-print(url)
-file = requests.get(url).text
-print(file)
-inf = open('https://stepic.org/media/attachments/course67/3.6.3/213837.txt')
-url = inf.readline().strip()
-print(url)
-file = requests.get(url).text
-print(file)
+import requests
 
+base_url = 'https://stepic.org/media/attachments/course67/3.6.3/'
+filename = '699991.txt'
+
+while True:
+	ret = requests.get(base_url + filename)
+	if not ret.text.endswith('.txt'):
+		break
+	filename = ret.text
+	print(ret, ret.text)
+
+
+print(ret.text)
+with open('file.txt', 'w') as f:
+	f.write(ret.text)
