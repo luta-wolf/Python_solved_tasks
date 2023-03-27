@@ -10,3 +10,6 @@ math and programming problems
 И задач по Python на Checkio:
 
 https://checkio.org/
+
+
+[Стажировка Контура](https://kontur.ru/education/programs/city-5574)
