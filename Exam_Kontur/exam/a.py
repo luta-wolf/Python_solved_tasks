@@ -1,13 +1,8 @@
 num: int = int(input())
-lst: list[str] = input().split()
-lst: list[int] = list(map(lambda x: int(x), lst))
-max_num: int = lst[0]
-max_i: int = 0
-min_num: int = lst[0]
-min_i: int = 0
-for i in range(num):
-    if lst[i] >= max_num:
-        max_i = i
-    if lst[i] < min_num:
-        min_i = i
+lst: list[int] = list(map(int, input().split()))
+
+max_num = max(lst)
+min_num = min(lst)
+min_i = lst.index(min_num)
+max_i = len(lst) - list(reversed(lst)).index(max_num) - 1
 print(max_i + 1, min_i + 1)
