@@ -5,7 +5,7 @@ max_num: int = lst[0]
 max_i: int = 0
 min_num: int = lst[0]
 min_i: int = 0
-for i in range(len(lst)):
+for i in range(num):
     if lst[i] >= max_num:
         max_i = i
     if lst[i] < min_num:
