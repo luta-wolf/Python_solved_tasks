@@ -1,5 +1,6 @@
 ## "Поколение Python": курс для начинающих
 [Курс на Stepic](https://stepik.org/course/58852/syllabus) от [BEEGEEK](https://pygen.ru/), подкаст с [автором Тимуром Гуевым](https://mlpodcast.mave.digital/ep-44)
+- Pep8 на [русском](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
 <img width="904" alt="image" src="https://github.com/luta-wolf/pre-interview_tests/assets/58044383/31d57c1f-84b4-46b7-beb5-3e921228a140">
 
 # Манифест по изучению программирования
