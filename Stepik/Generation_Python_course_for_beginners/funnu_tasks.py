@@ -1,6 +1,6 @@
 # 1
-a, b, c = map(int, input())
-print(a, b ,c)
+# a, b, c = map(int, input())
+# print(a, b ,c)
 
 # 2
 nums = [1, 2, 3, 4]
@@ -42,3 +42,13 @@ def convert(n):
 print(convert(0))
 print(convert(5))
 print(convert(12))
+
+
+languages = ["Python", "C Programming", "Java", "JavaScript"]
+smallest_string = min(languages)
+
+print("The smallest string is:", smallest_string)
+
+n = int(input())
+lst = map(float, [input() for _ in range(n)])
+print(int(sum(list(lst))))
