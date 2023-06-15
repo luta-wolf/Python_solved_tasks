@@ -52,3 +52,5 @@ print("The smallest string is:", smallest_string)
 n = int(input())
 lst = map(float, [input() for _ in range(n)])
 print(int(sum(list(lst))))
+
+
