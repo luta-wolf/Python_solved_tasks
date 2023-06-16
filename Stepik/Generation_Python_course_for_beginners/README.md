@@ -1,7 +1,8 @@
 ## "Поколение Python": курс для начинающих
 [Курс на Stepic](https://stepik.org/course/58852/syllabus) от [BEEGEEK](https://pygen.ru/), подкаст с [автором Тимуром Гуевым](https://mlpodcast.mave.digital/ep-44)
 - Pep8 на [русском](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html)
-- [Эмоджи в Python](https://pypi.org/project/emoji/)
+- [Эмоджи](https://pypi.org/project/emoji/) в Python
+- Официальный сайт таблицы символов [Unicode](https://home.unicode.org/)
 <img width="898" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/0aab3f42-1042-476e-954e-cad84455b48a">
 
 # Манифест по изучению программирования
@@ -143,3 +144,229 @@ P.S. Я очень люблю читать книги и смотреть лек
 
 ## Индексация строк
 <img width="536" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/304303eb-914f-4aaa-a669-a3b5cb1fbe23">
+
+## Срезы строк
+s = 'abcdefghij'
+<img width="825" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/2671923f-0016-49c2-b0bb-e2d8518aac13">
+print(s[2:5])
+print(s[0:6])
+print(s[2:7])
+<img width="701" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/373f00dd-d2c0-4410-9509-ef6906bb2c66">
+print(s[2:])
+print(s[:7])
+<img width="699" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/20eedf1a-c5dc-4516-b72e-cfc1a9d9c188">
+Срез s[:] возвращает исходную строку.
+Удалить из строки последний символ можно при помощи среза s[:-1].
+
+print(s[-9:-4])
+print(s[-3:])
+print(s[:-3])
+<img width="727" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/d92991c3-42ce-4132-9519-218a8d407d15">
+
+### Шаг среза
+Мы можем передать в срез третий необязательный параметр, который отвечает за шаг среза. К примеру, срез s[1:7:2] создаст строку bdf состоящую из каждого второго символа (индексы 1, 3, 5, правая граница не включена в срез).
+<img width="755" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/9e49afe7-95a9-4019-94a3-67f383dcad70">
+
+### Отрицательный шаг среза
+`s = 'abcdefghij'`
+print(s[::-1]) - выводит строку в обратном порядке --> jihgfedcba
+
+print(s[1:7:2]) --> bdf
+
+print(s[3::2]) --> dfhj
+
+print(s[:7:3]) --> adg
+
+print(s[::2]) --> acegi
+
+print(s[::-1]) --> jihgfedcba
+
+print(s[::-2]) --> jhfdb
+
+## Методы и функции
+Методы строкового типа данных можно разделить на три группы:
+- Конвертация регистра;
+- Поиск и замена;
+- Классификация символов.
+
+### Конвертация регистра
+- `capitalize()` - возвращает копию строки s, в которой первый символ имеет верхний регистр, а все остальные символы имеют нижний регистр.
+- `swapcase()` - возвращает копию строки s, в которой все символы, имеющие верхний регистр, преобразуются в символы нижнего регистра и наоборот.
+- `title()` возвращает копию строки s, в которой первый символ каждого слова переводится в верхний регистр.
+- `lower()` возвращает копию строки s, в которой все символы имеют нижний регистр.
+- `upper()` возвращает копию строки s, в которой все символы имеют верхний регистр.
+
+### Поиск и замена
+- `count(<sub>, <start>, <end>)` считает количество непересекающихся вхождений подстроки <sub> в исходную строку s
+
+    s = 'foo goo moo'
+
+    print(s.count('oo'))        --> 3
+
+    print(s.count('oo', 0, 8))  --> 2
+
+- `startswith(<suffix>, <start>, <end>)` определяет начинается ли исходная строка s подстрокой <suffix>. Если исходная строка начинается с подстроки <suffix>,метод возвращает значение True, а если нет, то  False.
+
+s = 'foobar'
+
+print(s.startswith('foo'))  --> True
+
+print(s.startswith('baz'))  --> False
+
+- `endswith(<suffix>, <start>, <end>)` определяет оканчивается ли исходная строка s подстрокой <suffix>. Метод возвращает значение True если исходная строка оканчивается на подстроку <suffix> и False в противном случае.
+
+s = 'foobar'
+
+print(s.endswith('bar'))  --> True
+
+print(s.endswith('baz'))  --> False
+
+- `find(<sub>, <start>, <end>)` находит индекс первого вхождения подстроки <sub> в исходной строке s. Если строка s не содержит подстроки <sub>, то метод возвращает значение -1. Мы можем использовать данный метод наравне с оператором in для проверки: содержит ли заданная строка некоторую подстроку или нет.
+- `rfind(<sub>, <start>, <end>)` идентичен методу find(<sub>, <start>, <end>), за тем исключением, что он ищет первое вхождение подстроки <sub> начиная с конца строки s.
+
+s = 'foo bar foo baz foo qux'
+
+print(s.find('foo'))  --> 0
+
+print(s.find('bar'))  --> 4
+
+print(s.find('qu')) --> 20
+
+print(s.find('python')) --> -1
+
+- `index(<sub>, <start>, <end>)` идентичен методу find(<sub>, <start>, <end>), за тем исключением, что он вызывает ошибку  ValueError: substring not found во время выполнения программы, если подстрока <sub> не найдена.
+
+- `rindex(<sub>, <start>, <end>)` идентичен методу index(<sub>, <start>, <end>), за тем исключением, что он ищет первое вхождение подстроки <sub> начиная с конца строки s.
+
+- `strip()` возвращает копию строки s у которой удалены все пробелы стоящие в начале и конце строки.
+
+s = '     foo bar foo baz foo qux      '
+
+print(s.lstrip()) --> 'foo bar foo baz foo qux'
+
+- `rstrip()` возвращает копию строки s у которой удалены все пробелы стоящие в конце строки.
+
+s = '      foo bar foo baz foo qux      '
+
+print(s.rstrip()) --> '     foo bar foo baz foo qux'
+
+- `replace(<old>, <new>, <count>)` ) возвращает копию s со всеми вхождениями подстроки <old>, замененными на <new>. <count> необязательный. Число, указывающее, сколько вхождений старого значения вы хотите заменить. По умолчанию все вхождения.
+
+s = 'foo bar foo baz foo qux'
+
+print(s.replace('foo', 'grault')) --> "grault bar grault baz grault qux"
+
+Метод replace() может принимать опциональный третий аргумент <count>,  который определяет количество замен.
+
+s = 'foo bar foo baz foo qux'
+
+print(s.replace('foo', 'grault', 2))  --> "grault bar grault baz foo qux"
+
+
+## Классификация символов
+- `isalnum()` определяет, состоит ли исходная строка из буквенно-цифровых символов. Метод возвращает значение True если исходная строка является непустой и состоит только из буквенно-цифровых символов и False в противном случае.
+
+s1 = 'abc123'
+
+s2 = 'abc$*123'
+
+s3 = ''
+
+print(s1.isalnum()) --> True
+
+print(s2.isalnum()) --> False
+
+print(s3.isalnum()) --> False
+
+- `isalpha()` определяет, состоит ли исходная строка из буквенных символов. Метод возвращает значение True если исходная строка является непустой и состоит только из буквенных символов и False в противном случае.
+
+s1 = 'ABCabc'
+
+s2 = 'abc123'
+
+s3 = ''
+
+print(s1.isalpha()) --> True
+
+print(s2.isalpha()) --> False
+
+print(s3.isalpha()) --> False
+
+- `isdigit()` определяет, состоит ли исходная строка только из цифровых символов. Метод возвращает значение True если исходная строка является непустой и состоит только из цифровых символов и False в противном случае.
+
+s1 = '1234567'
+
+s2 = 'abc123'
+
+s3 = ''
+
+print(s1.isdigit()) --> True
+
+print(s2.isdigit()) --> False
+
+print(s3.isdigit()) --> False
+
+- `islower()` определяет, являются ли все буквенные символы исходной строки строчными (имеют нижний регистр). Метод возвращает значение True если все буквенные символы исходной строки являются строчными и False в противном случае. Все неалфавитные символы игнорируются!
+
+s1 = 'abc'
+
+s2 = 'abc1$d'
+
+s3 = 'Abc1$D'
+
+print(s1.islower()) --> True
+
+print(s2.islower()) --> True
+
+print(s3.islower()) --> False
+
+- `isupper()` определяет, являются ли все буквенные символы исходной строки заглавными (имеют верхний регистр). Метод возвращает значение True если все буквенные символы исходной строки являются заглавными и False в противном случае. Все неалфавитные символы игнорируются!
+
+s1 = 'ABC'
+
+s2 = 'ABC1$D'
+
+s3 = 'Abc1$D'
+
+print(s1.isupper()) --> True
+
+print(s2.isupper()) --> True
+
+print(s3.isupper()) --> False
+
+- `isspace()` определяет, состоит ли исходная строка только из пробельных символов. Метод возвращает значение True если строка состоит только из пробельных символов и False в противном случае.
+
+s1 = '       '
+
+s2 = 'abc1$d'
+
+print(s1.isspace()) --> True
+
+print(s2.isspace()) --> False
+
+## ASCII table
+<img width="1056" alt="image" src="https://github.com/luta-wolf/pre-interview_tests/assets/58044383/1f59c4c4-094b-4804-b686-69fbad999688">
+ASCII (American Standard Code for Information Interchange – американский стандартный код обмена информацией).
+UTF (Unicode transformation format) - Формат преобразования Юникод.
+
+### Функция ord
+- `ord` позволяет определить код некоторого символа в таблице символов Unicode. Аргументом данной функции является одиночный символ.Обратите внимание, что функция ord принимает именно одиночный символ. Если попытаться передать строку, содержащую более одного символа. (Название функции ord происходит от английского слова order — порядок).
+
+num1 = ord('A')
+
+num2 = ord('B')
+
+num3 = ord('a')
+
+print(num1, num2, num3) --> 65 66 97
+
+## Функция chr
+- `chr` позволяет определить по коду символа сам символ. Аргументом данной функции является численный код.(Название функции chr происходит от английского слова char — символ.)
+
+chr1 = chr(65)
+
+chr2 = chr(75)
+
+chr3 = chr(110)
+
+print(chr1, chr2, chr3) --> A K n
