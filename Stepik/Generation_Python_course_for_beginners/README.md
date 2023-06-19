@@ -148,19 +148,19 @@ P.S. Я очень люблю читать книги и смотреть лек
 ## Срезы строк
 s = 'abcdefghij'
 <img width="825" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/2671923f-0016-49c2-b0bb-e2d8518aac13">
-print(s[2:5])
-print(s[0:6])
-print(s[2:7])
+    print(s[2:5])
+    print(s[0:6])
+    print(s[2:7])
 <img width="701" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/373f00dd-d2c0-4410-9509-ef6906bb2c66">
-print(s[2:])
-print(s[:7])
+    print(s[2:])
+    print(s[:7])
 <img width="699" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/20eedf1a-c5dc-4516-b72e-cfc1a9d9c188">
 Срез s[:] возвращает исходную строку.
 Удалить из строки последний символ можно при помощи среза s[:-1].
 
-print(s[-9:-4])
-print(s[-3:])
-print(s[:-3])
+    print(s[-9:-4])
+    print(s[-3:])
+    print(s[:-3])
 <img width="727" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/d92991c3-42ce-4132-9519-218a8d407d15">
 
 ### Шаг среза
@@ -168,20 +168,14 @@ print(s[:-3])
 <img width="755" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/9e49afe7-95a9-4019-94a3-67f383dcad70">
 
 ### Отрицательный шаг среза
-`s = 'abcdefghij'`
-print(s[::-1]) - выводит строку в обратном порядке --> jihgfedcba
-
-print(s[1:7:2]) --> bdf
-
-print(s[3::2]) --> dfhj
-
-print(s[:7:3]) --> adg
-
-print(s[::2]) --> acegi
-
-print(s[::-1]) --> jihgfedcba
-
-print(s[::-2]) --> jhfdb
+    `s = 'abcdefghij'`
+    print(s[::-1]) - выводит строку в обратном порядке --> jihgfedcba
+    print(s[1:7:2]) --> bdf
+    print(s[3::2]) --> dfhj
+    print(s[:7:3]) --> adg
+    print(s[::2]) --> acegi
+    print(s[::-1]) --> jihgfedcba
+    print(s[::-2]) --> jhfdb
 
 ## Методы и функции
 Методы строкового типа данных можно разделить на три группы:
@@ -200,182 +194,131 @@ print(s[::-2]) --> jhfdb
 - `count(<sub>, <start>, <end>)` считает количество непересекающихся вхождений подстроки `<sub>` в исходную строку s
 
     s = 'foo goo moo'
-
     print(s.count('oo'))        --> 3
-
     print(s.count('oo', 0, 8))  --> 2
 
 - `startswith(<suffix>, <start>, <end>)` определяет начинается ли исходная строка s подстрокой `<suffix>`. Если исходная строка начинается с подстроки `<suffix>`,метод возвращает значение True, а если нет, то  False.
 
-s = 'foobar'
-
-print(s.startswith('foo'))  --> True
-
-print(s.startswith('baz'))  --> False
+    s = 'foobar'
+    print(s.startswith('foo'))  --> True
+    print(s.startswith('baz'))  --> False
 
 - `endswith(<suffix>, <start>, <end>)` определяет оканчивается ли исходная строка s подстрокой `<suffix>`. Метод возвращает значение True если исходная строка оканчивается на подстроку `<suffix>` и False в противном случае.
 
-s = 'foobar'
-
-print(s.endswith('bar'))  --> True
-
-print(s.endswith('baz'))  --> False
+    s = 'foobar'
+    print(s.endswith('bar'))  --> True
+    print(s.endswith('baz'))  --> False
 
 - `find(<sub>, <start>, <end>)` находит индекс первого вхождения подстроки `<sub>` в исходной строке s. Если строка s не содержит подстроки `<sub>`, то метод возвращает значение -1. Мы можем использовать данный метод наравне с оператором in для проверки: содержит ли заданная строка некоторую подстроку или нет.
 - `rfind(<sub>, <start>, <end>)` идентичен методу `find(<sub>, <start>, <end>)`, за тем исключением, что он ищет первое вхождение подстроки `<sub>` начиная с конца строки s.
 
-s = 'foo bar foo baz foo qux'
-
-print(s.find('foo'))  --> 0
-
-print(s.find('bar'))  --> 4
-
-print(s.find('qu')) --> 20
-
-print(s.find('python')) --> -1
+    s = 'foo bar foo baz foo qux'
+    print(s.find('foo'))  --> 0
+    print(s.find('bar'))  --> 4
+    print(s.find('qu')) --> 20
+    print(s.find('python')) --> -1
 
 - `index(<sub>, <start>, <end>)` идентичен методу `find(<sub>, <start>, <end>)`, за тем исключением, что он вызывает ошибку  ValueError: substring not found во время выполнения программы, если подстрока `<sub>` не найдена.
 
 - `rindex(<sub>, <start>, <end>)` идентичен методу `index(<sub>, <start>, <end>)`, за тем исключением, что он ищет первое вхождение подстроки `<sub>` начиная с конца строки s.
 
 - `strip()` возвращает копию строки s у которой удалены все пробелы стоящие в начале и конце строки.
-
-s = '     foo bar foo baz foo qux      '
-
-print(s.lstrip()) --> 'foo bar foo baz foo qux'
+    s = '     foo bar foo baz foo qux      '
+    print(s.lstrip()) --> 'foo bar foo baz foo qux'
 
 - `rstrip()` возвращает копию строки s у которой удалены все пробелы стоящие в конце строки.
 
-s = '      foo bar foo baz foo qux      '
-
-print(s.rstrip()) --> '     foo bar foo baz foo qux'
+    s = '      foo bar foo baz foo qux      '
+    print(s.rstrip()) --> '     foo bar foo baz foo qux'
 
 - `replace(<old>, <new>, <count>)` ) возвращает копию s со всеми вхождениями подстроки `<old>`, замененными на `<new>`. `<count>` необязательный. Число, указывающее, сколько вхождений старого значения вы хотите заменить. По умолчанию все вхождения.
 
-s = 'foo bar foo baz foo qux'
-
-print(s.replace('foo', 'grault')) --> "grault bar grault baz grault qux"
+    s = 'foo bar foo baz foo qux'
+    print(s.replace('foo', 'grault')) --> "grault bar grault baz grault qux"
 
 Метод replace() может принимать опциональный третий аргумент `<count>`,  который определяет количество замен.
 
-s = 'foo bar foo baz foo qux'
-
-print(s.replace('foo', 'grault', 2))  --> "grault bar grault baz foo qux"
+    s = 'foo bar foo baz foo qux'
+    print(s.replace('foo', 'grault', 2))  --> "grault bar grault baz foo qux"
 
 
 ## Классификация символов
 - `isalnum()` определяет, состоит ли исходная строка из буквенно-цифровых символов. Метод возвращает значение True если исходная строка является непустой и состоит только из буквенно-цифровых символов и False в противном случае.
 
-s1 = 'abc123'
-
-s2 = 'abc$*123'
-
-s3 = ''
-
-print(s1.isalnum()) --> True
-
-print(s2.isalnum()) --> False
-
-print(s3.isalnum()) --> False
+    s1 = 'abc123'
+    s2 = 'abc$*123'
+    s3 = ''
+    print(s1.isalnum()) --> True
+    print(s2.isalnum()) --> False
+    print(s3.isalnum()) --> False
 
 - `isalpha()` определяет, состоит ли исходная строка из буквенных символов. Метод возвращает значение True если исходная строка является непустой и состоит только из буквенных символов и False в противном случае.
 
-s1 = 'ABCabc'
-
-s2 = 'abc123'
-
-s3 = ''
-
-print(s1.isalpha()) --> True
-
-print(s2.isalpha()) --> False
-
-print(s3.isalpha()) --> False
+    s1 = 'ABCabc'
+    s2 = 'abc123'
+    s3 = ''
+    print(s1.isalpha()) --> True
+    print(s2.isalpha()) --> False
+    print(s3.isalpha()) --> False
 
 - `isdigit()` определяет, состоит ли исходная строка только из цифровых символов. Метод возвращает значение True если исходная строка является непустой и состоит только из цифровых символов и False в противном случае.
 
-s1 = '1234567'
-
-s2 = 'abc123'
-
-s3 = ''
-
-print(s1.isdigit()) --> True
-
-print(s2.isdigit()) --> False
-
-print(s3.isdigit()) --> False
+    s1 = '1234567'
+    s2 = 'abc123'
+    s3 = ''
+    print(s1.isdigit()) --> True
+    print(s2.isdigit()) --> False
+    print(s3.isdigit()) --> False
 
 - `islower()` определяет, являются ли все буквенные символы исходной строки строчными (имеют нижний регистр). Метод возвращает значение True если все буквенные символы исходной строки являются строчными и False в противном случае. Все неалфавитные символы игнорируются!
 
-s1 = 'abc'
-
-s2 = 'abc1$d'
-
-s3 = 'Abc1$D'
-
-print(s1.islower()) --> True
-
-print(s2.islower()) --> True
-
-print(s3.islower()) --> False
+    s1 = 'abc'
+    s2 = 'abc1$d'
+    s3 = 'Abc1$D'
+    print(s1.islower()) --> True
+    print(s2.islower()) --> True
+    print(s3.islower()) --> False
 
 - `isupper()` определяет, являются ли все буквенные символы исходной строки заглавными (имеют верхний регистр). Метод возвращает значение True если все буквенные символы исходной строки являются заглавными и False в противном случае. Все неалфавитные символы игнорируются!
 
-s1 = 'ABC'
-
-s2 = 'ABC1$D'
-
-s3 = 'Abc1$D'
-
-print(s1.isupper()) --> True
-
-print(s2.isupper()) --> True
-
-print(s3.isupper()) --> False
+    s1 = 'ABC'
+    s2 = 'ABC1$D'
+    s3 = 'Abc1$D'
+    print(s1.isupper()) --> True
+    print(s2.isupper()) --> True
+    print(s3.isupper()) --> False
 
 - `isspace()` определяет, состоит ли исходная строка только из пробельных символов. Метод возвращает значение True если строка состоит только из пробельных символов и False в противном случае.
 
-s1 = '       '
-
-s2 = 'abc1$d'
-
-print(s1.isspace()) --> True
-
-print(s2.isspace()) --> False
+    s1 = '       '
+    s2 = 'abc1$d'
+    print(s1.isspace()) --> True
+    print(s2.isspace()) --> False
 
 - `split()` разбивает строку на слова, используя в качестве разделителя последовательность пробельных символов.
 
-s = 'Python is the most powerful language'
+    s = 'Python is the most powerful language'
+    words = s.split()
+    print(words) --> ['Python', 'is', 'the', 'most', 'powerful', 'language']
 
-words = s.split()
-
-print(words) --> ['Python', 'is', 'the', 'most', 'powerful', 'language']
 <img width="1289" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/ae45cbae-dae4-4701-9872-09b19ea510f9">
 <img width="956" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/518b95f7-2095-4138-8d51-2837450bbe45">
 
 - `join()` собирает строку из элементов списка, используя в качестве разделителя строку, к которой применяется метод.
 
-words = ['Python', 'is', 'the', 'most', 'powerful', 'language']
+    words = ['Python', 'is', 'the', 'most', 'powerful', 'language']
+    s = ' '.join(words)
+    print(s) --> Python is the most powerful language
 
-s = ' '.join(words)
-
-print(s) --> Python is the most powerful language
 <img width="1284" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/cfc41672-912a-4d36-a71f-16f6faa30f64">
 
-words = ['Мы', 'учим', 'язык', 'Python']
-
-print('*'.join(words)) --> Мы*учим*язык*Python
-
-print('-'.join(words)) --> Мы-учим-язык-Python
-
-print('?'.join(words)) --> Мы?учим?язык?Python
-
-print('!'.join(words)) --> Мы!учим!язык!Python
-
-print('abc'.join(words)) --> МыabcучимabcязыкabcPython
-
-print('123'.join(words)) --> Мы123учим123язык123Python
+    words = ['Мы', 'учим', 'язык', 'Python']
+    print('*'.join(words)) --> Мы*учим*язык*Python
+    print('-'.join(words)) --> Мы-учим-язык-Python
+    print('?'.join(words)) --> Мы?учим?язык?Python
+    print('!'.join(words)) --> Мы!учим!язык!Python
+    print('abc'.join(words)) --> МыabcучимabcязыкabcPython
+    print('123'.join(words)) --> Мы123учим123язык123Python
 
 ## ASCII table
 <img width="1056" alt="image" src="https://github.com/luta-wolf/pre-interview_tests/assets/58044383/1f59c4c4-094b-4804-b686-69fbad999688">
@@ -385,24 +328,18 @@ UTF (Unicode transformation format) - Формат преобразования 
 ### Функция ord
 - `ord` позволяет определить код некоторого символа в таблице символов Unicode. Аргументом данной функции является одиночный символ.Обратите внимание, что функция ord принимает именно одиночный символ. Если попытаться передать строку, содержащую более одного символа. (Название функции ord происходит от английского слова order — порядок).
 
-num1 = ord('A')
-
-num2 = ord('B')
-
-num3 = ord('a')
-
-print(num1, num2, num3) --> 65 66 97
+    num1 = ord('A')
+    num2 = ord('B')
+    num3 = ord('a')
+    print(num1, num2, num3) --> 65 66 97
 
 ## Функция chr
 - `chr` позволяет определить по коду символа сам символ. Аргументом данной функции является численный код.(Название функции chr происходит от английского слова char — символ.)
 
-chr1 = chr(65)
-
-chr2 = chr(75)
-
-chr3 = chr(110)
-
-print(chr1, chr2, chr3) --> A K n
+    chr1 = chr(65)
+    chr2 = chr(75)
+    chr3 = chr(110)
+    print(chr1, chr2, chr3) --> A K n
 
 
 ## Методы списков
@@ -411,127 +348,97 @@ print(chr1, chr2, chr3) --> A K n
 Метод `append()` добавляет строку 'python' целиком к списку, а метод `extend()` разбивает строку `'python'` на  символы `'p', 'y', 't', 'h', 'o', 'n'` и их добавляет в качестве элементов списка.
 - `del`  удаляет элементы списка по определенному индексу.
 
-del numbers[2:7]    # удаляем элементы с 2 по 6 включительно
+    del numbers[2:7]    # удаляем элементы с 2 по 6 включительно
 
 - `insert()` позволяет вставлять значение в список в заданной позиции. Если указан недопустимый индекс, то во время выполнения программы не происходит ошибки. Если задан индекс за пределами конца списка, то значение будет добавлено в конец списка. Если применен отрицательный индекс, который указывает на недопустимую позицию, то значение будет вставлено в начало списка. В него передается два аргумента:
 
     - 1 index: индекс, задающий место вставки значения;
     - 2 value: значение, которое требуется вставить.
 
-names = ['Gvido', 'Roman' , 'Timur']
-
-print(names) --> ['Gvido', 'Roman' , 'Timur']
-
-names.insert(0, 'Anders')
-
-print(names) --> ['Anders', 'Gvido', 'Roman' , 'Timur']
-
-names.insert(3, 'Josef')
-
-print(names) -- > ['Anders', 'Gvido', 'Roman' , 'Josef', 'Timur']
+    names = ['Gvido', 'Roman' , 'Timur']
+    print(names) --> ['Gvido', 'Roman' , 'Timur']
+    names.insert(0, 'Anders')
+    print(names) --> ['Anders', 'Gvido', 'Roman' , 'Timur']
+    names.insert(3, 'Josef')
+    print(names) -- > ['Anders', 'Gvido', 'Roman' , 'Josef', 'Timur']
 
 - `index()` возвращает индекс первого элемента, значение которого равняется переданному в метод значению. Таким образом, в метод передается один параметр: `value` значение, индекс которого требуется найти.
 
-names = ['Gvido', 'Roman' , 'Timur']
+    names = ['Gvido', 'Roman' , 'Timur']
+    position = names.index('Timur')
+    print(position) --> 2
 
-position = names.index('Timur')
-
-print(position) --> 2
 <img width="1279" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/14863e5b-b8d1-47e2-b2b2-18b461ff08a4">
 
 - `remove()` удаляет первый элемент, значение которого равняется переданному в метод значению. В метод передается один параметр: `value` значение, которое требуется удалить.
 
-food = ['Рис', 'Курица', 'Рыба', 'Брокколи', 'Рис']
-
-print(food) --> ['Рис', 'Курица', 'Рыба', 'Брокколи', 'Рис']
-
-food.remove('Рис')
-
-print(food) --> ['Курица', 'Рыба', 'Брокколи', 'Рис']
+    food = ['Рис', 'Курица', 'Рыба', 'Брокколи', 'Рис']
+    print(food) --> ['Рис', 'Курица', 'Рыба', 'Брокколи', 'Рис']
+    food.remove('Рис')
+    print(food) --> ['Курица', 'Рыба', 'Брокколи', 'Рис']
 
 - `pop()` удаляет элемент по указанному индексу и возвращает его. В метод pop() передается один необязательный аргумент: `index` индекс элемента, который требуется удалить.
 
-names = ['Gvido', 'Roman' , 'Timur']
-
-item = names.pop(1)
-
-print(item) --> Roman
-
-print(names) --> ['Gvido', 'Timur']
+    names = ['Gvido', 'Roman' , 'Timur']
+    item = names.pop(1)
+    print(item) --> Roman
+    print(names) --> ['Gvido', 'Timur']
 
 - `count()` возвращает количество элементов в списке, значения которых равны переданному в метод значению. D метод передается один параметр: `value` значение, количество элементов, равных которому,  нужно посчитать.
 
-names = ['Timur', 'Gvido', 'Roman', 'Timur', 'Anders', 'Timur']
-
-cnt1 = names.count('Timur')
-
-cnt2 = names.count('Gvido')
-
-cnt3 = names.count('Josef')
-
-print(cnt1) --> 3
-print(cnt2) --> 1
-print(cnt3) --> 0
+    names = ['Timur', 'Gvido', 'Roman', 'Timur', 'Anders', 'Timur']
+    cnt1 = names.count('Timur')
+    cnt2 = names.count('Gvido')
+    cnt3 = names.count('Josef')
+    print(cnt1) --> 3
+    print(cnt2) --> 1
+    print(cnt3) --> 0
 
 - `reverse()` инвертирует порядок следования значений в списке, то есть меняет его на противоположный.
 
-names = ['Gvido', 'Roman' , 'Timur']
-
-names.reverse()
-
-print(names) --> ['Timur', 'Roman', 'Gvido']
+    names = ['Gvido', 'Roman' , 'Timur']
+    names.reverse()
+    print(names) --> ['Timur', 'Roman', 'Gvido']
 
 - `clear()` удаляет все элементы из списка.
 
-names = ['Gvido', 'Roman' , 'Timur']
-
-names.clear()
-
-print(names) --> []
+    names = ['Gvido', 'Roman' , 'Timur']
+    names.clear()
+    print(names) --> []
 
 - `copy()` создает поверхностную копию списка.
 
-names = ['Gvido', 'Roman' , 'Timur']
-
-names_copy = names.copy()              # создаем поверхностную копию списка names
-
-print(names) --> ['Gvido', 'Roman', 'Timur']
-
-print(names_copy) --> ['Gvido', 'Roman', 'Timur']
-
-names_copy1 = list(names)             # создаем поверхностную копию с помощью функции list()
-
-names_copy2 = names[:]                # создаем поверхностную копию с помощью среза от начала до конца
+     names = ['Gvido', 'Roman' , 'Timur']
+     names_copy = names.copy()              # создаем поверхностную копию списка names
+     print(names) --> ['Gvido', 'Roman', 'Timur']
+     print(names_copy) --> ['Gvido', 'Roman', 'Timur']
+     names_copy1 = list(names)             # создаем поверхностную копию с помощью функции list()
+     names_copy2 = names[:]                # создаем поверхностную копию с помощью среза от начала до конца
 
 - `sort()` сортирует элементы списка по возрастанию или убыванию. (`sort(reverse = True`)`   - сортируем по убыванию). Cтроки списка сортируются в соответствии с [лексикографическим порядком](https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BA%D1%81%D0%B8%D0%BA%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA).  Метод ``sort() использует алгоритм [Timsort](https://ru.wikipedia.org/wiki/Timsort).
 
-a = ['бета', 'альфа', 'дельта', 'гамма']
-
-a.sort()
-
-print('Отсортированный список:', a) --> Отсортированный список: ['альфа', 'бета', 'гамма', 'дельта']
+    a = ['бета', 'альфа', 'дельта', 'гамма']
+    a.sort()
+    print('Отсортированный список:', a) --> Отсортированный список: ['альфа', 'бета', 'гамма', 'дельта']
 
 - `reverse()` - сортирует в обратном порядке.
 
 ## Списочные выражения - list comprehension
-numbers = [i for i in range(10)]
+    numbers = [i for i in range(10)]
 
 Общий вид списочного выражения следующий: `[выражение for переменная in последовательность]`
 
 где `переменная` — имя некоторой переменной, `последовательность` — последовательность значений, которые она принимает (список, строка или объект, полученный при помощи функции range), `выражение` — некоторое выражение, как правило, зависящее от использованной в списочном выражении переменной, которым будут заполнены элементы списка.
 
 ### Считывание входных данных
-n = int(input())
-
-lines = [input() for _ in range(n)]
-
+    n = int(input())
+    lines = [input() for _ in range(n)]
 или
-
-lines = [input() for _ in range(int(input()))]
+    lines = [input() for _ in range(int(input()))]
 
 Если требуется считать список чисел, то необходимо добавить преобразование типов:
 
-numbers = [int(input()) for _ in range(int(input()))]
+    numbers = [int(input()) for _ in range(int(input()))]
 
 ### Условия в списочном выражении
 В списочных выражениях можно использовать условный оператор. Например, если требуется создать список четных чисел от 0 до 20, то мы можем написать такой код:
@@ -540,19 +447,15 @@ numbers = [int(input()) for _ in range(int(input()))]
 
 ### Вложенные циклы
 
-numbers = [i * j for i in range(1, 5) for j in range(2)]
-
-print(numbers) --> [0, 1, 0, 2, 0, 3, 0, 4]
+    numbers = [i * j for i in range(1, 5) for j in range(2)]
+    print(numbers) --> [0, 1, 0, 2, 0, 3, 0, 4]
 
 Такой код равнозначен следующему:
 
-numbers = []
-
-for i in range(1, 5):
-
-    for j in range(2):
-
-        numbers.append(i * j)
+    numbers = []
+    for i in range(1, 5):
+        for j in range(2):
+            numbers.append(i * j)
 
 print(numbers)
 <img width="1167" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/a0add628-d54f-4010-9c7a-562856206fc4">
@@ -718,3 +621,69 @@ print(numbers)
         print('Это число четное. ')
     else:
         print('Это число нечетное.')
+
+## Модуль random
+    import random
+
+### Функция randint()
+- `randint()` принимает два обязательных аргумента a и b и возвращает случайное целое число из отрезка `[a;b]`. Левая и правая граница a и b включаются в диапазон генерируемых случайных чисел.
+    import random
+
+    num1 = random.randint(0, 17)
+    num2 = random.randint(-5, 5)
+
+    print(num1)
+    print(num2)
+
+### Функция randrange()
+- `randrange()` принимает такие же аргументы, что и функция range(). Различие состоит в том, что функция randrange()
+не возвращает саму последовательность чисел. Вместо этого она возвращает случайно выбранное число из последовательности чисел.
+Следующий код присваивает переменной num случайное число в диапазоне от 0 до 9:
+    import random
+
+    num = random.randrange(10)
+
+### Функция random()
+- `random()` возвращает случайное число с плавающей точкой (вещественное число). В функцию random() никаких аргументов не передается. Функция random() возвращает случайное число с плавающей точкой в диапазоне от 0.0 до 1.0
+1.0 (исключая 1.0).
+Следующий код выводит случайное число с плавающей точкой из диапазона `[0.0 : 1.0)`:
+    import random
+
+    num = random.random()
+    print(num)
+
+### Функция uniform()
+- `uniform()` тоже возвращает случайное число с плавающей точкой, но при этом она позволяет задавать диапазон для отбора значений.
+Следующий код выводит случайное число с плавающей точкой из диапазона `[1.5;17.3]`:
+    import random
+
+    num = random.uniform(1.5, 17.3)
+    print(num)
+
+### Функция shuffle()
+- `shuffle()` принимает список в качестве обязательного аргумента и перемешивает его случайным образом
+    import random
+
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+    random.shuffle(numbers)
+    print(numbers) --> [4, 7, 8, 1, 2, 3, 6, 5]
+
+### Функция choice()
+- `choice()` принимает список (строку) в качестве обязательного аргумента и возвращает один случайный элемент из переданного списка (строки).
+Следующий код выводит по одному случайному элементу из строки 'BEEGEEK' и списков [1, 2, 3, 4], ['a', 'b', 'c', 'd']:
+    import random
+
+    print(random.choice('BEEGEEK'))             --> E
+    print(random.choice([1, 2, 3, 4]))          --> 3
+    print(random.choice(['a', 'b', 'c', 'd']))  --> c
+
+### Функция sample()
+- `sample()` принимает два обязательных аргумента: список (строку) и количество случайных элементов, а возвращает список случайных элементов в указанном количестве
+    import random
+
+    numbers = [2, 5, 8, 9, 12]
+
+    print(random.sample(numbers, 1)) -->  `[9]`
+    print(random.sample(numbers, 2)) --> `[12, 5]`
+    print(random.sample(numbers, 3)) --> `[9, 2, 8]`
+    print(random.sample(numbers, 5)) --> `[12, 8, 9, 5, 2]`
