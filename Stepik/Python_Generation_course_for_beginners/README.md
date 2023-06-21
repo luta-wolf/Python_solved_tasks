@@ -6,6 +6,7 @@
 - [Документация Python](https://docs.python.org/3/)
 - [Коллекция хороших библиотек](https://github.com/vinta/awesome-python)
 - [Визуазизация Python](https://pythontutor.com/visualize.html#mode=edit)
+- Статья на Хабре [Изучаем Python за 6 месяцев. Подробный план обучения](https://habr.com/ru/articles/709102/) со множеством полезных ссылок.
 
 ### Веб сайты с задачами по программированию
 - [Pythonworld](https://pythonworld.ru/samouchitel-python)
