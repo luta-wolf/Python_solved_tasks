@@ -12,3 +12,5 @@ if func(num1, num2):
     print('делится')
 else:
     print('не делится')
+
+

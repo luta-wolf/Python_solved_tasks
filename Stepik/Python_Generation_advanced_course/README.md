@@ -49,3 +49,46 @@ print(isinstance('Beegeek', float))	--> `False`
 Функция type() часто бывает полезна при отладке программного кода, а также в реальном коде, особенно в объектно-ориентированном программировании с наследованием и пользовательскими строковыми представлениями, но об этом позже.
 
 Обратите внимание, что при проверке типов обычно вместо функции `type()` используется функция `isinstance()` так как, она принимает во внимание **иерархию типов (ООП)**.
+
+### тип данных NoneType
+- `None` в Python позволяет представить `null` переменную, то есть переменную, которая не содержит какого-либо значения. По сути None – это специальная константа, означающая пустоту. Если более точно, то `None` – это объект специального типа данных `NoneType`.
+<img width="729" alt="image" src="https://github.com/luta-wolf/Python_solved_tasks/assets/58044383/ff4aa226-1fd1-4f1a-96d7-6498d846c554">
+
+```
+var = None
+print(type(var)) --> <class 'NoneType'>
+```
+
+### Проверка на None
+
+```var = None
+if var is None:   # используем оператор is
+  print('None') --> None
+else:
+  print('Not None')
+```
+
+Следующий программный код:
+
+```
+var = None
+if var == None:   # используем оператор ==
+  print('None')
+else:
+  print('Not None')
+```
+
+Следующий программный код:
+
+```print(None == 17)        ---> False
+print(None == 3.14)         ---> False
+print(None == True)         ---> False
+print(None == [1, 2, 3])    ---> False
+print(None == 'Beegeek')    ---> False
+
+print(None == 0)            ---> False
+print(None == False)        ---> False
+print(None == '')           ---> False
+```
+
+**Значение `None` не отождествляется с значениями `0, False, ''`**.

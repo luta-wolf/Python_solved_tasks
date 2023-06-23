@@ -65,3 +65,30 @@ set b.amount = b.amount + s.amount, b.price = (b.price + s.price)/2
 where b.title = s.title;
 
 select * from book;
+
+-- task 8
+DELETE FROM supply
+WHERE author IN (
+    SELECT author
+    FROM book
+    GROUP BY author
+    HAVING SUM(amount) > 10
+    );
+
+SELECT *
+FROM supply;
+
+-- task 9
+CREATE TABLE ordering
+SELECT author, title, (
+    SELECT ROUND(AVG(amount))
+    FROM book
+    ) AS amount
+FROM book
+WHERE amount < (
+    SELECT ROUND(AVG(amount))
+    FROM book
+    );
+
+SELECT *
+FROM ordering
