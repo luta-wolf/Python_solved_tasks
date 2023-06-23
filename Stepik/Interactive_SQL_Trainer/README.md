@@ -2,12 +2,12 @@
 ## Полезные ссылки
 - [SQL ACADEMY](https://sql-academy.org/ru)
 - [Бесплатный тренажер на английском](https://sqlbolt.com/)
+- [Еще тренажер](https://sql-ex.ru/)
 - Шпаргалки по SQL [раз](https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf), [два](https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-ledger.pdf)
 - [Оконные функции в SQL](https://leftjoin.ru/files/window_functions_cheatsheet.pdf)
-- [Конспект по курсу](https://github.com/IsFilimonov/LearningPath/tree/main/2021/Stepik_Interactive-SQL-Simulator)
-- [Еще Конспект по курсу](https://github.com/EMIR1HUB/All_Conspectus/blob/main/SQL/1.2_base_SelectData.md)
+- [Конспект по курсу на Jupyter Notebook](https://github.com/IsFilimonov/LearningPath/tree/main/2021/Stepik_Interactive-SQL-Simulator)
 - [Курс по SQL на ютубе](https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oh5SdmGVusIVDPcELrJ2bsT)
-- Статья на Хабре [Как изучить SQL за 2 месяца с нуля. План обучения](https://habr.com/ru/articles/709116/) со множеством полезных ссылок.
+- [Как изучить SQL за 2 месяца с нуля. План обучения](https://habr.com/ru/articles/709116/) Статья на Хабре со множеством полезных ссылок.
 - [Курс · Hadoop. Основы](https://www.youtube.com/playlist?list=PLrCZzMib1e9rPxMIgPri9YnOpvyDAL9HD)
 - [Курс · Базы данных](https://www.youtube.com/playlist?list=PLrCZzMib1e9r6c-j8aW1JuETSyCBp9iAg)
 - [Курс · Базы данных (весна 2017)](https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj)
