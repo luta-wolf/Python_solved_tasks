@@ -86,9 +86,11 @@
 
 ###
 Задача посчитать количество уникальных пользователей за каждый день.
-    SELECT event_date, COUNT(DISTINCT user_id)
-    FROM game_events
-    GROUP BY event_date
+
+```SELECT event_date, COUNT(DISTINCT user_id)
+FROM game_events
+GROUP BY event_date
+```
 <img width="1262" alt="image" src="https://github.com/luta-wolf/luta-wolf/assets/58044383/cee6364a-eed8-4d15-8a84-2753669b9bf2">
 После того, как с помощью `GROUP` BY был выделен каждый день, в каждом дне происходит подсчет уникальных пользователей, это происходит в момент работы `SELECT`.
 
