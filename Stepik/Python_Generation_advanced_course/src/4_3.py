@@ -32,21 +32,101 @@ for i in range(1, n + 1):
 print(*result, sep='\n')
 
 # task 3 Треугольник Паскаля 1 🌶️
+# обучающее видео https://www.youtube.com/watch?v=jTxY1Cgs3Mw&ab_channel=Amulya%27sAcademy
 def pascal(n):
-    lst = [[1]]
-    s = ''
-#    for el in range(n):
-#        if el == 0:
-#            lst2 = [1]
-#            lst.append(lst2)
- #       for i in range(el - 1):
-  #          s += '1' + lst[el][i] + lst[el][i + 1] + '1'
-#    print(lst)
-#    print(s)
-
-
-
-
+    lst = []
+    for i in range(n + 1):
+        tmp_lst = []
+        for j in range(i + 1):
+            if j == 0 or j == i:
+                tmp_lst.append(1)
+            else:
+                tmp_lst.append(lst[i - 1][j] + lst[i - 1][j - 1])
+        lst.append(tmp_lst)
+    return lst[n]
 
 n = int(input())
-pascal(n)
+print(pascal(n))
+
+# task 4 Треугольник Паскаля 2
+# 1
+def pascal(n):
+    lst = []
+    for i in range(n):
+        tmp_lst = []
+        for j in range(i + 1):
+            if j == 0 or j == i:
+                tmp_lst.append(1)
+            else:
+                tmp_lst.append(lst[i - 1][j - 1] + lst[i - 1][j])
+        lst.append(tmp_lst)
+    return lst
+
+n = int(input())
+pascal = pascal(n)
+for el in pascal:
+    print(*el)
+
+# 2
+#-------------------ФУНКЦИЯ-------------------
+def pascal(n):
+    lst = []
+    for i in range(n):
+        tmp_lst = []
+        for j in range(i + 1):
+            if j == 0 or j == i:
+                tmp_lst.append(1)
+            else:
+                tmp_lst.append(lst[i - 1][j - 1] + lst[i - 1][j])
+        lst.append(tmp_lst)
+    return lst
+
+#--------------------ВЫЗОВ--------------------
+[print(*row) for row in pascal(int(input()))]
+
+# task 5 Упаковка дубликатов 🌶️
+s = input().split()
+s = ''.join(s) + ' '
+lst = []
+cnt = 1
+for i in range(len(s) - 1):
+    if s[i] == s[i + 1]:
+        cnt += 1
+    else:
+        lst.append(list(s[i]) * cnt)
+        cnt = 1
+
+print(lst)
+
+# task 6 Разбиение на чанки 🌶️
+# 1
+def chunked(s, n):
+    s = ''.join(s)
+    lst, tmp, cnt = [], [], 0
+    for i in range(len(s)):
+        cnt += 1
+        tmp.append(s[i])
+        if cnt % n == 0:
+            lst.append(tmp)
+            tmp = []
+    cnt = 0
+    for el in lst:
+        cnt += len(el)
+    if cnt != len(s):
+        lst.append(tmp)
+    return lst
+
+s, n = input().split(), int(input())
+print(chunked(s, n))
+
+# 2
+def chunked(s, n):
+    lst = []
+    for i in range(0, len(s), n):
+        lst.append(s[i:i + n])
+    return lst
+
+s, n = input().split(), int(input())
+print(chunked(s, n))
+
+# task 7 Подсписки списка 🌶️🌶️
