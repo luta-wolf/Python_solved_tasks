@@ -1,0 +1,33 @@
+C2_SimpleBashUtils
+C3_s21_string+
+C4_s21_math
+C5_s21_decimal
+C6_s21_matrix
+C7_SmartCalc_v1.0
+C8_3DViewer_v1.0
+DO1_Linux
+DO2_Linux Network
+DO3_LinuxMonitoring v1.0
+DO4_LinuxMonitoring v2.0
+DO5_SimpleDocker
+DO6_CICD
+CPP1_s21_matrix+
+CPP2_s21_containers
+CPP3_SmartCalc_v2.0
+CPP4_3DViewer_v2.0
+CPP5_3DViewer_v2.1
+CPP6_3DViewer_v2.2
+CPP7_MLP
+CPP8_PhotoLab_v1.0
+CPP9_MonitoringSystem
+A1_Maze
+A2_SimpleNavigator v1.0
+A3_Parallels
+A4_Crypto
+A5_s21_memory
+A6_Transactions
+A7_DNA Analyzer
+A8_Algorithmic trading
+SQL1_Bootcamp
+SQL2_Info21 v1.0
+SQL3_RetailAnalitycs v1.0

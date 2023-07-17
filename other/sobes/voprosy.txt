@@ -1,0 +1,31 @@
+Какие магические методы нужно определить в классе, чтобы сделать из него итератор?
+Как из класса сделать контесный менеджен? Менеджен подключений? Менеджер сесий?
+- переопределяем __enter__ и __exit__
+__call__ - зачем нужен?
+Магические методы зачем нужны?
+асинхронщина ? конструкция (yeild  from) ++++ Вообще супер Важно
+
+
+select * from table
+	where owner=(
+		select item.owner from table item
+			where status=done
+			LIMIT 1
+	)
+
+select releted и perfetch releted
+
+
+Student
+
+
+user1 = Student.object.filter(id=1)
+user3 = Student.object.filter(id=3)
+user2 = Student.object.filter(id=2)
+
+
+Django - MVC - рассказать что это?
+
+Класс мексины что такое в джанге?
+что такое метакласы ?
+prived,  protected в python
